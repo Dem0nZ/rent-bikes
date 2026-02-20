@@ -184,11 +184,7 @@ importers:
 
   packages/config: {}
 
-  packages/ui:
-    devDependencies:
-      typescript:
-        specifier: 5.9.2
-        version: 5.9.2
+  packages/ui: {}
 
 packages:
 
