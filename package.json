@@ -1,0 +1,21 @@
+{
+  "name": "vn-bikes",
+  "private": true,
+  "scripts": {
+    "build": "turbo run build",
+    "dev": "turbo run dev",
+    "lint": "biome check .",
+    "lint:fix": "biome check --write .",
+    "format": "biome format --write .",
+    "typecheck": "turbo run typechecks"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "2.2.4",
+    "turbo": "^2.8.10",
+    "typescript": "5.9.2"
+  },
+  "packageManager": "pnpm@10.3.0",
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}
