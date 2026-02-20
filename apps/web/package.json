@@ -13,7 +13,7 @@
     "format": "biome format",
     "lint": "biome lint",
     "check": "biome check",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "paraglide-js compile --project ./project.inlang && tsc --noEmit"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.18",
